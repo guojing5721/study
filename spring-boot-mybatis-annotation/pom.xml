@@ -6,11 +6,11 @@
 	<groupId>com.neo</groupId>
 	<artifactId>spring-boot-mybatis-annotation</artifactId>
 	<version>1.0.0</version>
-	<modules>
+	<!--<modules>
 		<module>spring-boot-api</module>
 		<module>../spring-boot-api</module>
 		<module>../spring-boot-common</module>
-	</modules>
+	</modules>-->
 	<packaging>pom</packaging>
 
 	<name>spring-boot-mybatis-annotation</name>
@@ -74,11 +74,11 @@
 	        <artifactId>spring-boot-devtools</artifactId>
 	        <optional>true</optional>
 		</dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>com.neo</groupId>
             <artifactId>spring-boot-common</artifactId>
             <version>1.0.0</version>
-        </dependency>
+        </dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-logging</artifactId>
